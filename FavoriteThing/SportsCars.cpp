@@ -14,7 +14,7 @@ int SportsCar::addVehicle()
 	cin.ignore();
 	cin.clear();
 	cout << "what Name" << endl;
-	getline(cin, Name);
+	getline(cin, Name);  
 	cout << "Make?" << endl;
 	getline(cin, Make);
 	cout << "Type?" << endl;
